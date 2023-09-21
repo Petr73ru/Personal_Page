@@ -1,0 +1,14 @@
+$('document').ready(function() {
+    $('#block1').show();
+    $('#block2').hide();
+})
+
+$('.btn-next').click(function(){
+    $('#block1').hide();
+    $('#block2').show();
+})
+
+$('.btn-prev').click(function(){
+    $('#block1').show();
+    $('#block2').hide();
+})
